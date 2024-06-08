@@ -9,7 +9,10 @@ class TuneView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Flutter Tune'),
+        title: const Text(
+          'Flutter Tune',
+          style: TextStyle(color: Colors.white),
+        ),
         backgroundColor: const Color(0xff253238),
         elevation: 0,
       ),
